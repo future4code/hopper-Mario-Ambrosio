@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Essa segunda semana de curso até o momento ta sendo incrível e ao mesmo tempo desafiadora, estou aprendendo a arrumar meu horários para estudos e tudo mais, **ansioso** e me preparando para evolui cada vez mais no curso.
