@@ -15,12 +15,15 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-
+    const comparador = (valor1, valor2) => {
+        return valor1 - valor2
+    }
+    return array.sort(comparador)
 }
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+
 }
 
 // EXERCÍCIO 05
