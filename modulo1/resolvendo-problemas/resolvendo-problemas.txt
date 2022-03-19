@@ -1,0 +1,22 @@
+EXERCÍCIOS DE FIXAÇÃO DO CONHECIMENTO
+
+1- Ter atenção no enunciado
+* Ler o enunciado da forma correta ajuda muito na solução de problemas, pois faz com que nós saibamos oque está sendo pedido e cobrado de você como programador.
+
+2- Retirar informações relevantes
+*Após a leitura do enunciado nós devemos retirar todas as informações que achamos relevantes para a construção do nosso código.
+
+3- Pensar entradas e saidas
+*Ao mesmo tempo em que estivemos separando as informações relevantes, devemos já ir pensando em entradas e saidas que o nosso código irá precisar para ser executado da maneira correta.
+
+4- Fazer um esquema visual
+*Podemos fazer um fluxograma para que isso fique mais entendível a olho nu e nos ajude na hora que estivemos fazendo nosso código.
+
+5- Criar código feio
+*Devemos fazer um "código feio" para colocamos nossa fluxograma em ação e vemos se esse conceito feito nele está correto e conseguiremos usar na pratica.
+
+6- Testar força-bruta
+*Iremos melhorar a escrita do nosso código e fazer testes com ele para sabemos se ele está fazendo oque precisamos que ele faça.
+
+7- Refatorar
+*Iremos coloca nomes que façam sentidos no nosso código para que seja facil de facil compreensão.
