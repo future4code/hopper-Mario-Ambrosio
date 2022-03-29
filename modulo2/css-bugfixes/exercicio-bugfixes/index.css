@@ -26,14 +26,14 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 70px;
 }
 
 div>p:first-child {
     display: inline;
 }
 
-div img {
+div img{
     background: black;
 }
 
