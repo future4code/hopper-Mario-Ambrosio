@@ -119,6 +119,13 @@ td button:hover{
     background-color: #918241
 }
 
+.bordas-pesquisa{
+    border: solid; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 
 .container-do-search {
     margin-top: 20px;
