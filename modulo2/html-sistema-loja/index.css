@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    background-color: bisque;
+}
+body{
+    text-align: center;
+    margin: auto;
+ }
+footer{
+    background-color: bisque;
+}
+.paragrafo_para_celular {
+    display: inline;
+    text-align: end;
+    text-transform: uppercase;
+}
+table{
+    display: inline;
+}
+.compreAqui {
+    background-color: black;
+    color: bisque;
+}
+.informacoes {
+    background-color: black;
+    color: bisque;
+}
+.formatarfonte {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+
+}
+form {   
+     border: 2px solid ;
+}
