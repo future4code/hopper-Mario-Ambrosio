@@ -1,5 +1,5 @@
 ```JS
-const somaNota = (ex + p1 + p2) / 3
+const somaNota = (ex + (p1 * 2 )+ (p2 * 3)) / 6
 resultadoNota = (soma) => {
     if(soma >= 9){
       return "A"
