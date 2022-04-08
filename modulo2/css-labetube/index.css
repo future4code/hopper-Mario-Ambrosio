@@ -43,6 +43,15 @@ main {
     margin: 30px;
 }
 
+@media (max-width: 800px) and (min-width: 400px){ 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 main .card .imagem{
     height: 250px;
     width: 250px;
@@ -98,14 +107,20 @@ section .video .formato-video {
 
 
 /*Rodapé*/
+
+@media screen and (min-device-width : 1200px){
+    footer {       
+    position: absolute;
+    bottom: 0%;
+    }
+}  
+
 footer{
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: #102947;
     color: white;
 
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
