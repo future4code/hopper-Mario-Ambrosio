@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/*       CABEÇARIO         */
+
+.cabecario{
+    width: 80%;
+    float: left;
+    padding: 50px 10%;
+    background-color: rgb(70, 130, 70);
+    color: white;
+}
+
+header > div > h1 > a > img:hover{
+    width: 60px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    font-size: 0;
+    margin-top: 10px;
+}
+
+.menu {
+    float: right;
+    align-items: center;
+    color: white;
+}
+
+nav > ul > li > a {
+    color: white;
+    font-style:italic
+}
+
+nav > ul > li > a:hover{
+    color: red;
+}
+
+/*       CORPO         */
+
+.corpo {
+    background-color: rgb(70, 142, 200);
+    width: 80%;
+    padding: 50px 10%;
+}
+
+.corpo > div > img {
+    width: 80%;
+}
+
+.texto-vidro {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}

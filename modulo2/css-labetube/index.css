@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçario*/
+
+header {
+    height: 90px;
+    width: 100vw;
+    background-color: #102947;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+header .logo .texto-logo {
+    text-decoration: none;
+    color: white;
+}
+
+header .barra-de-pesquisa {
+    height: 35px;
+    margin-right: 60px;
+}
+
+
+
+/*Corpo da Pagina Inicial*/
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 0.17fr);
+    grid-template-rows: repeat(2, 0.2fr );
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    margin: 30px;
+}
+
+main .card .imagem{
+    height: 250px;
+    width: 250px;
+}
+
+main .card {
+    box-shadow: 2px 2px 30px #102947;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    text-align: justify;
+}
+
+main .card .titulo {
+    margin-bottom: 40px;
+    color: #102947;
+    text-align: center;
+}
+
+main .card:hover {
+    box-shadow: 2px 2px 50px red;
+}
+
+
+
+/*Corpo das paginas de Midia*/
+section {
+    margin: 30px;
+
+}
+
+section .video {
+    display: flex;
+    flex-direction: column;    
+    text-align: justify;
+    align-items: center;
+
+
+}
+
+section .video .formato-video {
+    width: 130vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*Rodapé*/
+footer{
+    height: 50px;
+    width: 100vw;
+    background-color: #102947;
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
