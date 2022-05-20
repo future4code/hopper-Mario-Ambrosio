@@ -1,5 +1,4 @@
 import React from 'react'
-import Axios from 'axios'
 
 class Requisicoes extends React.Component {
   render() {
@@ -10,20 +9,24 @@ class Requisicoes extends React.Component {
         </div>
         <div>
           <h3>Email</h3>
-          <input type="text" />
+          <input type="text" 
+          value={this.props.email}
+          onChange={this.props.OnChangeEmail}/>
 
           <br />
           <br />
 
           <h3>Nome</h3>
-          <input type="text" />
+          <input type="text" 
+          value={this.props.name}
+          onChange={this.props.OnChangeName}/>
         </div>
 
         <div>
           <br />
-          <button>Enviar Formulario</button>
+          <button onClick={this.props.EnviarFormulario}>Enviar Formulario</button>
           <br />
-          <button>Lista De Usuários</button>
+          <button onClick={this.props.ListaDeUsuarios}>Lista De Usuários</button>
         </div>
       </>
     )

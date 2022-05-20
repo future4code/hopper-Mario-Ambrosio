@@ -1,13 +1,19 @@
 import React from 'react'
-import Axios from 'axios'
 
-class Requisicoes extends React.Component {
+class ListaDeUsuarios extends React.Component {
+
+  componentDidMount() {
+    this.props.PuxarUsuarios()
+  }
+
   render() {
     return (
       <>
+      {this.props.list}
+      <button onClick={this.props.Cadastro}>Cadastro De Usuários</button>
       </>
     )
   }
 }
 
-export default Requisicoes
+export default ListaDeUsuarios
