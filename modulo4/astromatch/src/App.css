@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Pagina {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+}
+
+/*----------------------------------MENU------------------------------------*/
+
+.Menu {
+  background: red;
+  min-width: 30vw;
+  min-height: 100vh;
+}
+
+.Funcionalidades {
+  background: blue;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+
+.BotaoMenu {
+  height: 30px;
+  margin: 5px;
+}
+
+/*----------------------------------LAYOUT------------------------------------*/
+.Layout {
+  display: grid;
+  grid-template-rows: 0fr 1fr;
+}
+
+.ConteinerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.Logo {
+  margin: 30px;
+}
+
+.ConteinerMatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid  red;
+  height: 70vh;
+  position: relative;
+  margin: 20px;
+}
+
+.Img {
+
+  width: 30vw;
+  height: 70vh;
+}
+
+.ConteinerCentral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ConteinerTotal{
+  border: 5px solid red;
+  text-align: center;
+}
+
+.BotoesMatch {
+  margin: 10px;
+}
+
+.textoDiv{
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  color: black;
+}
+
