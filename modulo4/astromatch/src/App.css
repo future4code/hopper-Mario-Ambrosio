@@ -6,18 +6,20 @@
 .Pagina {
   display: grid;
   grid-template-columns: 0fr 1fr;
+  background: linear-gradient(#0F2027,#203A43,#2C5364);
 }
 
 /*----------------------------------MENU------------------------------------*/
 
 .Menu {
-  background: red;
+  background: white;
+  border: 5px 5px solid black;
   min-width: 30vw;
   min-height: 100vh;
 }
 
 .Funcionalidades {
-  background: blue;
+  background: linear-gradient(#0F2027,#121f24,#21404d);
   height: 8vh;
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,19 @@
   margin: 5px;
 }
 
+.ImgDaListaDeMatch {
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.ListaDeMatch{
+  display: flex;
+  align-items: center;
+}
+
 /*----------------------------------LAYOUT------------------------------------*/
 .Layout {
   display: grid;
@@ -37,6 +52,7 @@
 }
 
 .ConteinerLogo {
+  color: white;
   display: flex;
   justify-content: center;
 }
@@ -49,7 +65,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid  red;
+  border: 3px solid  black;
   height: 70vh;
   position: relative;
   margin: 20px;
@@ -68,12 +84,41 @@
 }
 
 .ConteinerTotal{
-  border: 5px solid red;
+  background: white;
+  border: 3px solid black;
   text-align: center;
 }
 
 .BotoesMatch {
-  margin: 10px;
+  margin: 15px;
+  background: transparent;
+}
+
+#Vermelho {
+  position: absolute;
+  border-radius: 100px ;
+  width: 70px;
+  height: 70px;
+  border: 2px solid red;
+}
+#Verde{
+  border-radius: 100px ;
+  width: 70px;
+  height: 70px;
+  border: 2px solid green;
+}
+
+.ImgMatch{
+  width: 45px;
+}
+
+#Vermelho :hover {
+  width: 50px;
+}
+
+#Verde :hover {
+  position: relative;
+  width: 50px;
 }
 
 .textoDiv{
@@ -81,6 +126,6 @@
   text-align: left;
   bottom: 0;
   left: 0;
-  color: black;
+  color: red;
 }
 
