@@ -1,0 +1,15 @@
+export const Planetas = [
+  'Mercúrio',
+  'Vênus',
+  'Terra',
+  'Marte',
+  'Júpiter',
+  'Saturno',
+  'Urano',
+  'Netuno',
+  'Plutão',
+  'Éris',
+  'Ceres',
+  'Haumea',
+  'Makemake',
+]
