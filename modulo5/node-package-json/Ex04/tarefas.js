@@ -1,0 +1,1 @@
+export const tarefas = ["Limpar casa","Lavar louça","Passar pano","Pegar o coco dos cachorros"]
