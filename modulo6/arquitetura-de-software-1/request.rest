@@ -1,0 +1,19 @@
+GET http://localhost:3003/
+
+
+###
+POST http://localhost:3003/createUser
+Content-Type: application/json
+
+{
+  "name": "Michael Scott",
+	"email": "michael@dundermifflin.com",
+	"password": "theboss"	
+}
+
+###
+GET http://localhost:3003/all
+
+
+###
+DELETE http://localhost:3003/961677d5-1569-4163-95f9-efa2d261e5f1
